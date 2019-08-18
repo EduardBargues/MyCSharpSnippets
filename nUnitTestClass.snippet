@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Test class in nUnit</Title>
+            <Author>Eduard Bargués</Author>
+            <Description>Generates a standard nUnit test class with attributes and one test</Description>
+            <Shortcut>nutc</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[
+                    [TestFixture]
+                    public class nUnitTestClass
+                    {
+                        [Test]
+                        public async Task MethodName_Context_ExpectedBehaviour()
+                        {
+                            // Arrange
+
+                            // Act
+
+                            // Assert
+
+                        }
+                    }
+                ]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
